@@ -18,7 +18,7 @@ function calculate()
         result = num1 * num2
         println("The result is: ", result)
     elseif operation == "/"
-        if num2 != 0    
+        if num1 != 0 && num2 != 0   # this symbol && means AND, if the first expression is false it will not evaluate the second expression
             result = num1 / num2
             println("The result is: ", result)
         else 
